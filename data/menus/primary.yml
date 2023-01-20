@@ -1,2 +1,14 @@
---- []
+---
+- title: Thématiques
+  target: "/thematiques/"
+  kind: page
+  children: []
+- title: Vulnérabilités
+  target: "/vulnerabilites/"
+  kind: page
+  children: []
+- title: Bonnes pratiques
+  target: "/bonnes-pratiques/"
+  kind: page
+  children: []
 
