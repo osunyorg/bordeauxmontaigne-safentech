@@ -1,4 +1,6 @@
 ---
+title: Menu principal
+items:
 - title: Thématiques
   target: "/thematiques/"
   kind: page
