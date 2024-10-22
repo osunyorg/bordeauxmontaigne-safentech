@@ -62,15 +62,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       En bref
-    slug: "en-bref"
-    position: 1
-    rank: 2
+    slug: >-
+      en-bref
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -91,20 +99,27 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Vulnérabilités
-    slug: "vulnerabilites"
-    position: 2
-    rank: 2
+    slug: >-
+      vulnerabilites
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
-      Boîte Mail
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/vulnerabilites/boite-mail-1/"
@@ -123,20 +138,27 @@ contents:
           external: false
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Bonnes pratiques
-    slug: "bonnes-pratiques"
-    position: 3
-    rank: 2
+    slug: >-
+      bonnes-pratiques
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
-      Boîte Mail
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/bonnes-pratiques/boite-mail-2/"
@@ -153,7 +175,6 @@ contents:
           slug: "avoir-plusieurs-adresses-e-mail"
           file: "pages/bonnes-pratiques/boite-mail-2/avoir-plusieurs-adresses-e-mail/_index.html"
           external: false
-
 
 
 
