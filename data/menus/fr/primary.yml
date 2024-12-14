@@ -5,15 +5,18 @@ items:
   target: "/thematiques/"
   kind: page
   children: []
+  path: "/pages/thematiques"
   file: content/fr/pages/thematiques/_index.html
 - title: Vulnérabilités
   target: "/vulnerabilites/"
   kind: page
   children: []
+  path: "/pages/vulnerabilites"
   file: content/fr/pages/vulnerabilites/_index.html
 - title: Bonnes pratiques
   target: "/bonnes-pratiques/"
   kind: page
   children: []
+  path: "/pages/bonnes-pratiques"
   file: content/fr/pages/bonnes-pratiques/_index.html
 
