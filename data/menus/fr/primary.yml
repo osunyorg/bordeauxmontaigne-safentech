@@ -4,13 +4,22 @@ items:
 - title: Thématiques
   target: "/thematiques/"
   kind: page
+  new_tab: false
   children: []
+  path: "/pages/thematiques"
+  file: content/fr/pages/thematiques/_index.html
 - title: Vulnérabilités
   target: "/vulnerabilites/"
   kind: page
+  new_tab: false
   children: []
+  path: "/pages/vulnerabilites"
+  file: content/fr/pages/vulnerabilites/_index.html
 - title: Bonnes pratiques
   target: "/bonnes-pratiques/"
   kind: page
+  new_tab: false
   children: []
+  path: "/pages/bonnes-pratiques"
+  file: content/fr/pages/bonnes-pratiques/_index.html
 
