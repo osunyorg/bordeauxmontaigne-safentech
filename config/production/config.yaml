@@ -2,6 +2,11 @@
 
 baseURL: https://safe-n-tech.bordeauxmontaigne.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: 69c0804f-fd7c-4ef7-be37-8b3680291744
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
